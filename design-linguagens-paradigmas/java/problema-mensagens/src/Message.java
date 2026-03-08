@@ -2,6 +2,10 @@ import java.util.*;
 
 public record Message(String sender, String body, Boolean isRead) {
 
+    Message(String sender, String body){
+        this(sender, body, false);
+    }
+
     public static Map<String, Integer> countMessageBySender(final List<Message> messages){
         final var senderCounts = new HashMap<String, Integer>();
         for(final var message: messages){
