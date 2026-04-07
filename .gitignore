@@ -3,7 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-!**/.idea/
+
 
 ### Eclipse ###
 .apt_generated
@@ -29,3 +29,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+design-linguagens-paradigmas/kotlin/problema-mensagens/.idea/
+design-linguagens-paradigmas/java/problema-mensagens/.idea/
